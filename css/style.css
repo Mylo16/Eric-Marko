@@ -1,0 +1,26 @@
+#nav-bar {
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 300px;
+}
+
+.logo {
+    width: 300px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: white;
+    }
+}
